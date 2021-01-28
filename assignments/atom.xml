@@ -5,22 +5,22 @@ layout: feed
 <feed xmlns="http://www.w3.org/2005/Atom">
 
 	<title>NAME's Blog</title>
-	<link href="http://NAME.github.io/blog/atom.xml" rel="self"/>
-	<link href="http://NAME.github.io/blog"/>
+	<link href="http://NAME.github.io/assignments/atom.xml" rel="self"/>
+	<link href="http://NAME.github.io/assignments"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
-	<id>http://NAME.github.io/blog</id>
+	<id>http://NAME.github.io/assignments</id>
 	<author>
 		<name>NAME</name>
 		<email>your-email@gmail.com</email>
 	</author>
 
-	{% for post in site.posts %}
+	{% for submission in site.submissions %}
 		<entry>
-			<title>{{ post.title }}</title>
+			<title>{{ submission.title }}</title>
 			<link href="http://NAME.github.io{{ post.url }}"/>
-			<updated>{{ post.date | date_to_xmlschema }}</updated>
-			<id>http://NAME.github.io{{ post.id }}</id>
-			<content type="html">{{ post.content | xml_escape }}</content>
+			<updated>{{ submission.date | date_to_xmlschema }}</updated>
+			<id>http://NAME.github.io{{ submission.id }}</id>
+			<content type="html">{{ submission.content | xml_escape }}</content>
 		</entry>
 	{% endfor %}
 
