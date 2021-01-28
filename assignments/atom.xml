@@ -4,7 +4,7 @@ layout: feed
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-	<title>NAME's Blog</title>
+	<title>NAME's Assignments</title>
 	<link href="http://NAME.github.io/assignments/atom.xml" rel="self"/>
 	<link href="http://NAME.github.io/assignments"/>
 	<updated>{{ site.time | date_to_xmlschema }}</updated>
@@ -17,7 +17,7 @@ layout: feed
 	{% for submission in site.submissions %}
 		<entry>
 			<title>{{ submission.title }}</title>
-			<link href="http://NAME.github.io{{ post.url }}"/>
+			<link href="http://NAME.github.io{{ submission.url }}"/>
 			<updated>{{ submission.date | date_to_xmlschema }}</updated>
 			<id>http://NAME.github.io{{ submission.id }}</id>
 			<content type="html">{{ submission.content | xml_escape }}</content>
