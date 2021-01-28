@@ -6,6 +6,6 @@ title: "Annabella's Assignments"
 	<ul class="submissions">
 
 	  {% for submission in site.submissions %}
-	    <li><span>{{ submission.date | date_to_string }}</span> » <a href="{{ submission.url }}" title="{{ submission.title }}">{{ post.submission }}</a></li>
+	    <li><span>{{ submission.date | date_to_string }}</span> » <a href="{{ submission.url }}" title="{{ submission.title }}">{{ submission.title }}</a></li>
 	  {% endfor %}
 	</ul>
