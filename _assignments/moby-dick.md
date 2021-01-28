@@ -1,4 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+---
+layout: assignment
+title: "Annabella, Moby Dick Assignment"
+date: 2021-01-27
+---
+
 <book>
     <author name = "Herman Melville">
         <nationality>American</nationality>
