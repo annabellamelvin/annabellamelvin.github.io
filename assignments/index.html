@@ -3,10 +3,9 @@ layout: default
 title: "Annabella's Assignments"
 ---
 	<h1>{{ page.title }}</h1>
-	<ul class="assignments">
+	<ul class="submissions">
 
-	  {% for post in site.assignments %}
-	    <li><span>{{ post.date | date_to_string }}</span> » <a href="{{ post.url }}" title="{{ post.title }}">{{ post.title }}</a></li>
+	  {% for submission in site.submissions %}
+	    <li><span>{{ submission.date | date_to_string }}</span> » <a href="{{ submission.url }}" title="{{ submission.title }}">{{ post.submission }}</a></li>
 	  {% endfor %}
 	</ul>
-
