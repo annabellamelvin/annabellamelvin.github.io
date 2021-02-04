@@ -16,5 +16,17 @@ lb {
 
 space[quantity="1"] {padding:10px;}
 
+titlePage{
+    text-transform: uppercase;
+}
 
+@font-face {
+    font-family: Questa;
+    src: url("/css/2-questa_grande_regular_31.otf") format("opentype");
+}
+
+hi. questa {
+    font-family: "Questa";
+    color: black;
+}
 
