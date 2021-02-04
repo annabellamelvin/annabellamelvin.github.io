@@ -1,0 +1,74 @@
+titlePage {
+	margin-top: 10%;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 15%;
+	background-color: #F1D997;
+}
+
+@font-face {
+	font-family: QuestaGrandeRegular;
+	src: url("/css/2-questa_grande_regular_31.otf") format("opentype");
+	font-weight: normal;
+    font-style: normal;
+}
+
+* {
+	display: block;
+	font-size: 100%;
+	font-family: 'QuestaGrandeRegular';
+}
+[rendition ~= "#center"] {
+	text-align: center;
+}
+
+[rendition ~= "#expanded"] {
+	letter-spacing: 3px;
+}
+
+[rendition ~= "#x-large"] {
+	font-size: 130%;
+	word-spacing: 10px;
+}
+
+[rendition ~= "#xx-large"] {
+	font-size: 150%;
+	word-spacing: 5px;
+}
+
+[rendition ~= "#large"] {
+	font-size: 115%;
+    word-spacing: 10px;
+    line-height:200px;
+}
+
+[rendition ~= "#uppercase"] {
+	text-transform: uppercase;
+}
+
+[rendition ~= "#small"] {
+	font-size: 70%;
+
+}
+
+[rendition="#red #x-large"] {
+    font-size:150%;
+}
+
+publisher {
+	font-family: 'QuestaGrandeRegular';
+	word-spacing: 10px;
+}
+
+pubPlace {
+    display:block;
+    line-height:40px;
+    margin-top:150px;
+}
+
+[when~="1904"] {
+	font-size: 100%;
+	line-height:45px;
+}
+
+space[quantity="1"] {padding:10px;}
