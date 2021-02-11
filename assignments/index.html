@@ -8,11 +8,13 @@ title: "Annabella's Assignments"
 		<a href= "moby.xml"> moby.xml</a><br></br> 		 
 		<a href="tartRecipe.xml"> tartRecipe.xml</a><br></br> 		
 		<a href="titlepage.xml"> titlepage.xml</a>
+		<a href="plantcatalog.html"> titlepage.xml</a>
 
 		{% for post in site.homework %}	    
 		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{/moby.xml}}" title="{{moby.xml }}">{{moby.xml}}</a>		
 		<span>{{ post.date | date_to_string }}</span> » <a href="{{/tartRecipe.xml}}" title="{{tartRecipe.xml}}">{{tartRecipe.xml}}</a>		
 		<span>{{ post.date | date_to_string }}</span> » <a href="{{/titlepage.xml}}" title="{{titlepage.xml}}">{{titlepage.xml}}</a></li>
+		<span>{{ post.date | date_to_string }}</span> » <a href="{{/plantcatalog.html}}" title="{{plantcatalog.html}}">{{titlepage.xml}}</a></li>
 
 	  {% endfor %}
 		</ul>
