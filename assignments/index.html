@@ -5,18 +5,22 @@ title: "Annabella's Assignments"
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
 		
-		<a href="moby.xml"> moby.xml</a><br></br> 		 
-		<a href="tartRecipe.xml"> tartRecipe.xml</a><br></br> 		
-		<a href="titlepage.xml"> titlepage.xml</a><br></br>
-		<a href="plantcatalog.xsl"> plantcatalog.xsl</a><br></br>
-		<a href="plantcatalog.html"> plantcatalog.html</a>
+		<a href="moby.xml"> MobyXML</a><br></br> 		 
+		<a href="tartRecipe.xml"> TartRecipeXML</a><br></br> 		
+		<a href="titlepage.xml"> TitlePageXML</a><br></br>
+		<a href="plantcatalog.xsl"> PlantXSL</a><br></br>
+		<a href="plantcatalog.html"> PlantHTML</a><br></br>
+		<a href="journal_r.xsl"> JournalXSLT</a><br></br>
+		<a href="research_journals2.xml"> JournalXML</a>
 
 		{% for post in site.homework %}	    
 		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{/moby.xml}}" title="{{moby.xml }}">{{moby.xml}}</a>		
 		<span>{{ post.date | date_to_string }}</span> » <a href="{{/tartRecipe.xml}}" title="{{tartRecipe.xml}}">{{tartRecipe.xml}}</a>		
 		<span>{{ post.date | date_to_string }}</span> » <a href="{{/titlepage.xml}}" title="{{titlepage.xml}}">{{titlepage.xml}}</a>
 		<span>{{ post.date | date_to_string }}</span> » <a href="{{/plantcatalog.xsl}}" title="{{plantcatalog.xsl}}">{{plantcatalog.xsl}}</a>
-		<span>{{ post.date | date_to_string }}</span> » <a href="{{/plantcatalog.html}}" title="{{plantcatalog.html}}">{plantcatalog.html}}</a></li>
+		<span>{{ post.date | date_to_string }}</span> » <a href="{{/plantcatalog.html}}" title="{{plantcatalog.html}}">{plantcatalog.html}}</a>
+		<span>{{ post.date | date_to_string }}</span> » <a href="{{/journal_r.xsl}}" title="{{journal_r.xsl}}">{{JournalXSLT}}</a>
+		<span>{{ post.date | date_to_string }}</span> » <a href="{{/research_journals2.xml}}" title="{{research_journals2.xml}}">{plantcatalog.html}}</a></li>
 
 	  {% endfor %}
 		</ul>
