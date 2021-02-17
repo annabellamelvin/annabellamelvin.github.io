@@ -19,7 +19,7 @@
     <xsl:template match="input"/>
     <xsl:template match="script"/>
     <xsl:template match="div[@class = 'breadcrumbs']"/>
-    <xsl:template match="div[@class = 'interior-rail']"/>
+    <xsl:template match="div[@class = 'interior-top']"/>
     <xsl:template match="h1"/>
     <xsl:template match="div[@style = 'display:none']"/>
     <xsl:template match="div[@class = 'block']"/>
