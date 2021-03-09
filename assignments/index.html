@@ -6,6 +6,7 @@ title: "Annabella's Final Project"
 	<ul class="posts">
 		
 	
+		<a href="parks"> Park Pages</a><br></br>
 		<a href="naturepreserves.xsl"> Nature Preserves XSLT</a><br></br>
 		<a href="DPR_NaturePreserves_001(1).xml"> Nature Preserves XML</a><br></br>
 		<a href="B073_208.html"> B073 Preserve</a><br></br>
@@ -14,6 +15,7 @@ title: "Annabella's Final Project"
 
 
 		{% for post in site.homework %}	    
+		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{parks}}" title="{{parks}}">{parks}}</a>
 		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{/naturepreserves.xsl}}" title="{{naturepreserves.xsl}}">{naturepreserves.xsl}}</a>
 		<span>{{ post.date | date_to_string }}</span> » <a href="{{/DPR_NaturePreserves_001(1).xml}}" title="{{DPR_NaturePreserves_001(1).xml}}">{DPR_NaturePreserves_001(1).xml}}</a>
 		<span>{{ post.date | date_to_string }}</span> » <a href="{{/parks/B073_208.html}}" title="{{B073_208.html}}">{B073_208.html}}</a>
