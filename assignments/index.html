@@ -12,7 +12,8 @@ title: "Annabella's Assignments"
 		<a href="plantcatalog.html"> PlantHTML</a><br></br>
 		<a href="journal_r.xsl"> JournalXSLT</a><br></br>
 		<a href="research_journals2.xml"> JournalXML</a><br></br>
-		<a href="xquery_homework.xquery"> XQUERY</a>
+		<a href="xquery_homework.xquery"> XQUERY</a><br></br>
+		<a href="/parks"> Final Project</a>
 
 		{% for post in site.homework %}	    
 		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{/moby_dick.xml}}" title="{{moby_dick.xml }}">{{moby_dick.xml}}</a>		
@@ -22,7 +23,8 @@ title: "Annabella's Assignments"
 		<span>{{ post.date | date_to_string }}</span> » <a href="{{/plantcatalog.html}}" title="{{plantcatalog.html}}">{plantcatalog.html}}</a>
 		<span>{{ post.date | date_to_string }}</span> » <a href="{{/journal_r.xsl}}" title="{{journal_r.xsl}}">{{JournalXSLT}}</a>
 		<span>{{ post.date | date_to_string }}</span> » <a href="{{/research_journals2.xml}}" title="{{research_journals2.xml}}">{plantcatalog.html}}</a>
-		<span>{{ post.date | date_to_string }}</span> » <a href="{{/xquery_homework.xquery}}" title="{{xquery_homework.xquery}}">{xquery_homework.xquery}}</a></li>
+		<span>{{ post.date | date_to_string }}</span> » <a href="{{/xquery_homework.xquery}}" title="{{xquery_homework.xquery}}">{xquery_homework.xquery}}</a>
+		<span>{{ post.date | date_to_string }}</span> » <a href="{{/parks}}" title="{{/parks}}">{/parks}}</a></li>
 
 	  {% endfor %}
 		</ul>
