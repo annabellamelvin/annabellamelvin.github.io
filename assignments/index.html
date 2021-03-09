@@ -5,14 +5,7 @@ title: "Annabella's Assignments"
 	<h1>{{ page.title }}</h1>
 	<ul class="posts">
 		
-		<a href="moby_dick.xml"> Moby XML</a><br></br> 		 
-		<a href="apple_tart.xml"> AppleTart XML</a><br></br> 		
-		<a href="titlepage.xml"> TitlePage XML</a><br></br>
-		<a href="plantcatalog.xsl"> Plant XSL</a><br></br>
-		<a href="plantcatalog.html"> Plant HTML</a><br></br>
-		<a href="journal_r.xsl"> JournalXSLT</a><br></br>
-		<a href="research_journals2.xml"> Journal XML</a><br></br>
-		<a href="xquery_homework.xquery"> XQUERY</a><br></br>
+	
 		<a href="naturepreserves.xsl"> Nature Preserves XSLT</a><br></br>
 		<a href="DPR_NaturePreserves_001(1).xml"> Nature Preserves XML</a><br></br>
 		<a href="B073_208.html"> B073 Preserve</a><br></br>
@@ -21,15 +14,7 @@ title: "Annabella's Assignments"
 		<a href="/parks"> Final Project</a>
 
 		{% for post in site.homework %}	    
-		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{/moby_dick.xml}}" title="{{moby_dick.xml }}">{{moby_dick.xml}}</a>		
-		<span>{{ post.date | date_to_string }}</span> » <a href="{{/apple_tart.xml}}" title="{{apple_tart.xml}}">{{apple_tart.xml}}</a>		
-		<span>{{ post.date | date_to_string }}</span> » <a href="{{/titlepage.xml}}" title="{{titlepage.xml}}">{{titlepage.xml}}</a>
-		<span>{{ post.date | date_to_string }}</span> » <a href="{{/plantcatalog.xsl}}" title="{{plantcatalog.xsl}}">{{plantcatalog.xsl}}</a>
-		<span>{{ post.date | date_to_string }}</span> » <a href="{{/plantcatalog.html}}" title="{{plantcatalog.html}}">{plantcatalog.html}}</a>
-		<span>{{ post.date | date_to_string }}</span> » <a href="{{/journal_r.xsl}}" title="{{journal_r.xsl}}">{{JournalXSLT}}</a>
-		<span>{{ post.date | date_to_string }}</span> » <a href="{{/research_journals2.xml}}" title="{{research_journals2.xml}}">{plantcatalog.html}}</a>
-		<span>{{ post.date | date_to_string }}</span> » <a href="{{/xquery_homework.xquery}}" title="{{xquery_homework.xquery}}">{xquery_homework.xquery}}</a>
-		<span>{{ post.date | date_to_string }}</span> » <a href="{{/naturepreserves.xsl}}" title="{{naturepreserves.xsl}}">{naturepreserves.xsl}}</a>
+		<li><span>{{ post.date | date_to_string }}</span> » <a href="{{/naturepreserves.xsl}}" title="{{naturepreserves.xsl}}">{naturepreserves.xsl}}</a>
 		<span>{{ post.date | date_to_string }}</span> » <a href="{{/DPR_NaturePreserves_001(1).xml}}" title="{{DPR_NaturePreserves_001(1).xml}}">{DPR_NaturePreserves_001(1).xml}}</a>
 		<span>{{ post.date | date_to_string }}</span> » <a href="{{/parks/B073_208.html}}" title="{{B073_208.html}}">{B073_208.html}}</a>
 		<span>{{ post.date | date_to_string }}</span> » <a href="{{/nature_table.xsl}}" title="{{nature_table.xsl}}">{nature_table.xsl}}</a>
