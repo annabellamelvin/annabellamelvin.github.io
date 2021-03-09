@@ -54,7 +54,7 @@
         
         <xsl:template match="Parkname">
             <p>
-                Park ID: <xsl:apply-templates/>
+                Park Name: <xsl:apply-templates/>
             </p>
         </xsl:template>
         <xsl:template match="ParkID">
