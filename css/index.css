@@ -18,6 +18,11 @@ div.menu{
     top: 0;
 }
 
+a{
+	text-decoration: none;
+	color: E7EAD2;
+}
+
 li.menu{
 	list-style-type: none;
 	font-family: 'QuestaGrandeRegular';
