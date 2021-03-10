@@ -20,6 +20,7 @@
                     </tr>
                     <xsl:for-each select="child::FACILITY">
                         <xsl:sort select="."/>
+                     <xsl:sort select="Borough" data-type="text" order="ascending"/>
                         <tr>
                             <td>
                                 <xsl:value-of select="./Parkname"/>
@@ -29,7 +30,6 @@
                             </td>
                             <td>
                                 <xsl:value-of select="./Borough"/>
-                                <xsl:sort select="Borough" data-type="text" order="ascending"/>
                             </td>
                             <td>
                                 <xsl:value-of select="./Acres"/>
