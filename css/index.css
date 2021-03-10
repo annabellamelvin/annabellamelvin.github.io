@@ -1,0 +1,45 @@
+@font-face {
+	font-family: QuestaGrandeRegular;
+	src: url("/css/2-questa_grande_regular_31.otf") format("opentype");
+	font-weight: normal;
+    font-style: normal;
+}
+body{
+	font-family: 'OpenSans';
+	background-color: #8BA393;
+}
+
+div.header{padding-bottom: 140px;
+width: 100%;}
+
+div.menu{
+    position: fixed;
+    right: 50%;
+    top: 0;
+}
+
+li.menu{
+	list-style-type: none;
+	font-family: 'QuestaGrandeRegular';
+	font-size: 2em;
+	font-weight: 500;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	display: inline-block;
+	color: #07452A;
+}
+
+h1{
+    font-family: 'QuestaGrandeRegular';
+    font-size: 1.5em;
+    padding-right: 20px;
+    margin-right: 5%;
+    text-align: right;
+}
+
+p{
+	font-size: 1.2em;
+	margin: 0;
+	padding-right: 35px;
+	padding-bottom: 20px;
+}
