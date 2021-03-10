@@ -63,6 +63,29 @@ h2 {
 	font-family: 'Roboto', sans-serif;
 }
 
+.contentt {
+	columns: 3;
+	justify-content: center;
+
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.contentt li {
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	list-style-type: none;
+	display: block;
+}
+
 p {
 	font-family: 'Roboto', sans-serif;
+}
+
+th {
+	font-family: 'Roboto', sans-serif;
+}
+
+td {
+	font-family: "Roboto", sans-serif;
 }
