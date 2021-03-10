@@ -51,35 +51,35 @@
             </xsl:result-document>
         </xsl:template>
         
-        
-        <xsl:template match="Parkname">
+      
+      <xsl:template match="Parkname">
             <p>
-                Park Name: <xsl:apply-templates/>
+                <b>Park Name: </b><xsl:apply-templates/>
             </p>
         </xsl:template>
         <xsl:template match="ParkID">
             <p>
-                Park ID: <xsl:apply-templates/>
+                <b>Park ID: </b><xsl:apply-templates/>
             </p>
         </xsl:template>
         <xsl:template match="Borough">
             <p>
-                Borough: <xsl:apply-templates/>
+                <b>Borough: </b><xsl:apply-templates/>
             </p>
         </xsl:template>
         <xsl:template match="Acres">
             <p>
-                Acres: <xsl:apply-templates/>
+                <b>Acres: </b><xsl:apply-templates/>
             </p>
         </xsl:template>
         <xsl:template match="HabitatType">
             <h2>
-                Habitat Type: <xsl:apply-templates/>
+                <b>Habitat Type: </b><xsl:apply-templates/>
             </h2>
         </xsl:template>
         <xsl:template match="Description">
             <p>
-                Description: <xsl:apply-templates/>
+                <b>Description: </b><xsl:apply-templates/>
             </p>
         </xsl:template>
         
