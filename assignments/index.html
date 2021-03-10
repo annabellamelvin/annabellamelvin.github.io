@@ -12,6 +12,7 @@ title: "Annabella's Final Project"
 		<a href="B073_208.html"> B073 Preserve</a><br></br>
 		<a href="nature_table.xsl"> Preserve XSL</a><br></br>
 		<a href="nature_table.html"> Preserve HTML</a>
+		<a href="/Nature_Preserves">Nature Preserves</a>
 
 
 		{% for post in site.homework %}	    
@@ -20,7 +21,8 @@ title: "Annabella's Final Project"
 		<span>{{ post.date | date_to_string }}</span> » <a href="{{/DPR_NaturePreserves_001(1).xml}}" title="{{DPR_NaturePreserves_001(1).xml}}">{DPR_NaturePreserves_001(1).xml}}</a>
 		<span>{{ post.date | date_to_string }}</span> » <a href="{{/parks/B073_208.html}}" title="{{B073_208.html}}">{B073_208.html}}</a>
 		<span>{{ post.date | date_to_string }}</span> » <a href="{{/nature_table.xsl}}" title="{{nature_table.xsl}}">{nature_table.xsl}}</a>
-		<span>{{ post.date | date_to_string }}</span> » <a href="{{nature_table.html}}" title="{{nature_table.html}}">{nature_table.html}}</a></li>
+		<span>{{ post.date | date_to_string }}</span> » <a href="{{nature_table.html}}" title="{{nature_table.html}}">{nature_table.html}}</a>
+		<span>{{ post.date | date_to_string }}</span> » <a href="{{Nature_Preserves}}" title="{{Nature_Preserves}}">{Nature_Preserves}}</a></li>
 	
 
 	  {% endfor %}
