@@ -7,10 +7,7 @@
 
 body {
 	font-family: 'OpenSans';
-	background-color: #ececa3;
-}
-
-h1 {
+	background-color: #e9f0db;
 }
 
 .tabs {
@@ -18,11 +15,54 @@ h1 {
 	justify-content: center;
 
 	background-color: #74923A;
+	padding-top: 2px;
+	border-top: 3px solid #495b24;
+	border-bottom: 3px solid #495b24;
 }
 
 .tabs li {
 	list-style-type: none;
 	display: inline;
-	font-family: 'Roboto';
 
+	text-transform: uppercase;
+	font-family: 'Roboto', sans-serif;
+	font-size: 1em;
+	color: black;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+a {
+	color: #495b24;
+}
+
+a:hover {
+	color: white;
+	transition: 0.3s;
+}
+
+h1 {
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+	margin-top: 25px;
+}
+
+img {
+	max-width: 50%;
+	height: auto;
+
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+	border: 3px solid #495b24;
+	border-radius: 0.5%;
+}
+
+h2 {
+	font-family: 'Roboto', sans-serif;
+}
+
+p {
+	font-family: 'Roboto', sans-serif;
 }
