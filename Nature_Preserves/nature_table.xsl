@@ -49,14 +49,4 @@
         </td>
     </xsl:template>
 </xsl:stylesheet>
-                            </td>
-                            <td>
-                                <xsl:value-of select="./HabitatType"/>
-                            </td>
-                        </tr>
-                    </xsl:for-each>
-                </table>
-            </body>
-        </html>
-    </xsl:template>
-</xsl:stylesheet>
+                           
