@@ -17,22 +17,38 @@
                         <th>Borough</th>
                         <th>Acres</th>
                         <th>Habitat Type</th>
-                    </tr>
-                    <xsl:for-each select="child::FACILITY">
-                        <xsl:sort select="."/>
-                     <xsl:sort select="Borough" data-type="text" order="ascending"/>
-                        <tr>
-                            <td>
-                                <xsl:value-of select="./Parkname"/>
-                            </td>
-                            <td>
-                                <xsl:value-of select="./ParkID"/>
-                            </td>
-                            <td>
-                                <xsl:value-of select="./Borough"/>
-                            </td>
-                            <td>
-                                <xsl:value-of select="./Acres"/>
+                     </tr>
+                    <xsl:apply-templates/>
+                </table>
+            </body>
+        </html>
+    </xsl:template>
+    <xsl:template match="Parkname">
+        <tr>
+            <xsl:apply-templates/>
+        </tr>
+    </xsl:template>
+    <xsl:template match="ParkID">
+        <td>
+            <xsl:apply-templates/>
+        </td>
+    </xsl:template>
+    <xsl:template match="Borough">
+        <td>
+            <xsl:apply-templates/>
+        </td>
+    </xsl:template>
+    <xsl:template match="Acres">
+        <td>
+            <xsl:apply-templates/>
+        </td>
+    </xsl:template>
+    <xsl:template match="HabitatType">
+        <td>
+            <xsl:apply-templates/>
+        </td>
+    </xsl:template>
+</xsl:stylesheet>
                             </td>
                             <td>
                                 <xsl:value-of select="./HabitatType"/>
